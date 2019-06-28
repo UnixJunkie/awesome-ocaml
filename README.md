@@ -9,7 +9,6 @@ A curated list of references to awesome OCaml tools, frameworks, libraries and a
 
 If you're looking for comprehensive community-driven content about OCaml visit 📚[OCamlverse](https://ocamlverse.github.io/)!
 
-For a quick introduction to the modern OCaml development workflow consult the [**OCaml for the impatient**](https://adambard.com/blog/getting-started-with-ocaml/) guide.
 
 Your favorite package is not listed? Fork and [create a Pull Request](https://github.com/rizo/awesome-ocaml/edit/master/README.md) to add it!
 
@@ -196,6 +195,8 @@ There is also an ongoing experimental project to make OCaml multiprocessor and m
   - [Irmin](https://github.com/mirage/irmin) — A distributed database that follows the same design principles as Git.
   - [Obigstore](http://obigstore.forge.ocamlcore.org/) — A database with BigTable-like data model atop LevelDB.
   - [RunOrg](https://github.com/RunOrg/RunOrg) - It is a WIP database server written in OCaml.
+  - [dokeysto](https://github.com/UnixJunkie/dokeysto) - the dumb OCaml key-value store; for string keys and string
+  values. Note that there is also dokeysto_lz4 (dokeysto with on-the-fly LZ4 compression/decompression of values) and dokeysto_camltc (dokeysto using tokyocabinet as backend) in OPAM.
 - **Overlays**
   - [Sequoia](https://github.com/andrenth/sequoia) - Sequoia is a type-safe query builder for MySQL/MariaDB and PostgreSQL
   - [Macaque](https://github.com/ocsigen/macaque) — Macaque is a library for safe and flexible database queries using comprehensions on top of PG'OCaml.
